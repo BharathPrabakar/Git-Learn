@@ -1,0 +1,114 @@
+In git we use README.md file, inorder to provide overall discription of the repo.
+In that 'README.md' we can see "md" as its language, where 'md' means MarkDown.
+MarkDown is a language.
+It is similer to HTML.
+
+Let's dive into functionalities of MarkDown:
+
+MarkDown
+    Heading's
+    Paragraph
+    List
+    Tables
+    Codes
+    Highlights
+
+Heading's
+    Similer to HTML , in md also we have heading symbols(like tags).
+    in HTML we use '<h>' tag where in md we use '#' symbol
+    In HTML we have h1 to h6, same as that we have # to ######, which will have different size.
+
+Eg: 
+
+#Topic - similer to <h1>Topic</h1>
+##sub-topic - similer to <h2>sub-topic</h2>
+
+
+Paragraph
+    In MarkDown at max we can give only one space between characters.
+    If you type with more than one space , it will display only on space.
+    in HTML <pre/> tag will display the content as same as given, in order to have the same in 'md' we should give one tab space before each line.
+
+
+
+List
+    List is of Two type:
+        Ordered List
+        Un-Ordered List
+    
+    Ordered List
+        In order to declare a Ordered list do: 1.(space)(content)
+        Further lines will be automatically declared, on giving enter.
+
+    Nested Ordered List
+        In order to declare a Nested Ordered List , after declaring initial OL, do: (tab)1.(space)(content)
+    
+Eg:
+
+1.(space)Veg
+(tab)1.(space)fruits
+     2. //further numbers will be automatically declared
+    
+
+    Un-Ordered List
+        In order to declare a Ordered list do: -(space)(content)
+        Further lines will be automatically declared, on giveing enter.
+    
+    Nested Un-Ordered List
+        In order to declare a Nested Un-Ordered List , after declaring initial UOL, do: (tab)-(space)(content)
+    
+Eg:
+
+- Initial_UOL
+    - Nested_UOL
+    - //further will automatically declared on giving next.
+
+
+
+Tables
+
+    In order to create table format in 'md', we use pipe( | ) operator and minus( - ).
+    On every line first and last should be with pipe operator.
+    for dividing heading with a horizantal line , use ( - ).
+
+Eg:
+
+|Heading1|Heading2|Heading3|
+|--------|--------|--------|
+|constent|constent|constent|
+|constent|constent|constent|
+|constent|constent|constent|
+
+this will provide table format.
+
+
+
+Codes
+
+    In order to write codes inside the 'md' file we use backtick.
+    If we are writting C code in the md file, we should start by defining ( ```C ) at the bigining and ( ``` ) at the end.
+
+Eg:
+
+```C
+#include<stdio.h>
+int main() {
+    printf("This is C code");
+    return 0;
+}
+```
+
+
+
+Highlights
+
+    To make a letter or word or Line BOLD we should use ( ** ) at the start and end.
+    To make a letter or word or Line Italic we should use ( * ) at the start and end.
+    To have both Italic and Bold , we use ( *** )
+
+Eg:
+
+**Bold**
+*italic*
+***Both Bold and Italic***
+
